@@ -2,6 +2,14 @@
 
 The default text field in nova doesn't wrap, this causes table to become very wide. By using this field you can either wrap after set number of characters or by splitting the text by a specified marker.
 
+## Screenshots
+
+**How it looks with regular text field:**
+![screenshot how it looks with regular text field ](before.png?raw=true "with regular text field")
+
+**How it looks with text wrap field:**
+![screenshot how it looks with text wrap field ](after.png?raw=true "with text wrap field")
+
 ## Installation
 
 Install the package into a Laravel app that uses [Nova](https://nova.laravel.com) with Composer:
