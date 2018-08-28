@@ -12,14 +12,10 @@
         let method = field.wrap.method;
         let text = '';
         if (method === 'length'){
-          console.log('length');
           text = this.wordwrap(value, marker)
         } else if (method === 'explode'){
           text = this.explodeAndJoin(value, marker)
-        } else {
-          console.log('wrong method selected');
         }
-        console.log('text',text);
         return text;
       },
       explodeAndJoin(str,exploder){
