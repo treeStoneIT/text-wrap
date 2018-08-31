@@ -13,6 +13,17 @@ class TextWrap extends Field
      */
     public $component = 'text-wrap';
 
+
+    /**
+     * Indicates if the element should be shown on the edit pages and detail page
+     *
+     * @var bool
+     */
+    public $showOnCreation = false;
+    public $showOnUpdate = false;
+    public $showOnDetail = false;
+
+
     /**
      * Set the method used to wrap
      * if the $wrapMethod  = length the $wrapMarker will be an integer length of each line
