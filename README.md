@@ -26,7 +26,7 @@ Add the field to your resource in the ```fields``` method:
 use Treestoneit\TextWrap\TextWrap;
 ...
 ...
-TextWrap::make('Product Name')->wrapMethod('length',40)->onlyOnIndex(),
+TextWrap::make('Product Name')->wrapMethod('length',40),
 ```
 
 If you would like to use the wrap through spliting the text by marker, here is an example:  
@@ -35,7 +35,7 @@ If you would like to use the wrap through spliting the text by marker, here is a
 use Treestoneit\TextWrap\TextWrap;
 ...
 ...
-TextWrap::make('Product Name')->wrapMethod('explode','-*-')->onlyOnIndex(),
+TextWrap::make('Product Name')->wrapMethod('explode','-*-'),
 ```
 
 Please note: _Only Index version of the field is configured to wrap_
