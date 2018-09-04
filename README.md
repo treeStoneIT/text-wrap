@@ -1,5 +1,7 @@
 # Nova Text Field With Wrap Options
 
+**Since Nova now includes `asHtml()` Meta on the Text field (as of [v1.0.9](https://github.com/laravel/nova-issues/issues/280)), there is no more need for this package as same functionality can be achieved with core Text field.**
+
 The default text field in nova doesn't wrap, this causes table to become very wide. By using this field you can either wrap after set number of characters or by splitting the text by a specified marker.
 
 ## Screenshots
